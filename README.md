@@ -21,4 +21,8 @@ As there will be a different todos lists for different people. There is therefor
   After extracting my codefiles and uploading them in IntelliJ Idea. You need to configure your MySQL datasorce link, you need to change the username and password to your mySQL username's and password. 
 
 ## Ways of DB authentication implemented :-
-  - Based on requested api (If you want to work your todo on this style you need to include role based tags in application.properties file and need to comment out 
+  - Based on requested api (If you want to work your todo on this style you need to include role based tags in application.properties file and need to comment out the lines in "securityFilterChain" named function in config file and comment the lines that are used by customer details object).
+  - Based on Spring Data JPA (No need to change anything you can run as it is because already user ,roles and their join tables with a @Entity tag are writtten in their respective class files).
+
+## How DB authentication works in Spring :-
+
