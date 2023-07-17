@@ -21,3 +21,4 @@ As there will be a different todos lists for different people. There is therefor
   After extracting my codefiles and uploading them in IntelliJ Idea. You need to configure your MySQL datasorce link, you need to change the username and password to your mySQL username's and password. 
 
 ## Ways of DB authentication implemented :-
+  - Based on requested api (If you want to work your todo on this style you need to include role based tags in application.properties file and need to comment out 
